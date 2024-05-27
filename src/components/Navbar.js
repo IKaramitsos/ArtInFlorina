@@ -16,18 +16,18 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className="leftSide" id={openLinks ? "open" : "close"}>
-        <Link to ="/">
+        <Link to ="/ArtInFlorina/">
         <img src={Logo} />
         </Link>
         <div className="hiddenLinks">
-          <Link to="/"> Home </Link>
+          <Link to="/ArtInFlorina/"> Home </Link>
           <Link to="/event"> Events </Link>
           <Link to="/about"> About </Link>
           <Link to="/contact"> Contact </Link>
         </div>
       </div>
       <div className="rightSide">
-        <Link to="/"> Home </Link>
+        <Link to="/ArtInFlorina/"> Home </Link>
         <Link to="/event"> Events </Link>
         <Link to="/about"> About </Link>
         <Link to="/contact"> Contact </Link>
