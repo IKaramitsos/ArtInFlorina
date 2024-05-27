@@ -7,6 +7,7 @@ import "../styles/Home.css";
 function Home() {
   return (
     <div className='home' style={{ backgroundImage: `url(${BannerImage})`}}>
+      <div className="overlay"></div> 
         <div className='headerContainer'>
             <h1>ArtInFlorina</h1>
             <p>Explore the Cultural Events</p>
