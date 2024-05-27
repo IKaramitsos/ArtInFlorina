@@ -6,7 +6,7 @@ import Event from "./pages/Event";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import EventDetail from './components/EventDetail';
-import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
@@ -14,8 +14,6 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-        <Route path="/home" element={<Navigate to="/" />} /> 
-        <Route path="/ArtInFlorina" element={<Navigate to="/" />} /> 
           <Route exact path="/" element={<Home />} />
           <Route exact path="/event" element={<Event />} />
           <Route exact path="/about" element={<About />} />
