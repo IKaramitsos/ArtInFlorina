@@ -38,7 +38,7 @@ npm start
 
 ## Screenshot
 
-![image](https://github.com/IKaramitsos/ArtInFlorina/assets/63364209/06d7b618-eaec-4bfb-bcb4-209b46c2f05b)
+![image](https://github.com/IKaramitsos/ArtInFlorina/assets/63364209/07a81b76-0b6f-423e-a089-66ca2eb51de3)
 
 ## Skills Enhanced
 
