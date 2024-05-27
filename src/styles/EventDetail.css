@@ -1,0 +1,31 @@
+.eventDetail {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .eventDetail img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .eventDetail h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .eventDetail p {
+    margin-bottom: 10px;
+  }
+  
+  .eventDetail strong {
+    font-weight: bold;
+  }
+  
+  .eventDetail .additional-info {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+  }
+  

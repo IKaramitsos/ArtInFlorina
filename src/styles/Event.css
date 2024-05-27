@@ -1,0 +1,129 @@
+.search-and-filters {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 80vw; 
+  margin-bottom: 20px;
+  padding: 0 10px; 
+}
+
+.event input {
+  padding: 10px;
+  width: 200px;
+  margin-right: 20px;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+}
+
+.filters button {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  background-color: #f0f0f0;
+  transition: background-color 0.3s ease;
+}
+
+.filters button:hover {
+  background-color: #ddd;
+}
+
+.filters button.active {
+  background-color: #bbb;
+}
+
+.eventTitle {
+  font-family: cursive;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.event {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.EventList {
+  width: 80vw;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  place-items: center;
+}
+
+.EventItem {
+  border-radius: 15px;
+  width: 350px;
+  height: 600px;
+  margin: 20px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  padding-bottom: 20px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column; 
+  justify-content: space-between;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.EventItem.hidden {
+  opacity: 0;
+  pointer-events: none; 
+}
+
+.EventItem:hover {
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+.EventItem div {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 100%;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.EventItem h1 {
+  margin: 20px 20px 10px 20px;
+  font-size: 24px;
+}
+
+.EventItem p {
+  margin: 0 20px 10px 20px;
+  font-size: 16px;
+  color: #555;
+}
+
+.EventItemLink {
+  text-decoration: none;
+  color: inherit;
+}
+
+.starRatingContainer {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 1300px) {
+  .EventList {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .EventItem {
+    grid-template-columns: 1fr;
+  }
+}
