@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ArtInFlorina/static/css/main.a950e0fb.css",
-    "main.js": "/ArtInFlorina/static/js/main.e8162447.js",
+    "main.css": "/ArtInFlorina/static/css/main.e7d8a62a.css",
+    "main.js": "/ArtInFlorina/static/js/main.3599ec68.js",
     "static/js/453.4f70c550.chunk.js": "/ArtInFlorina/static/js/453.4f70c550.chunk.js",
     "static/media/florinaup.jpg": "/ArtInFlorina/static/media/florinaup.ed388029d45d4916f74f.jpg",
     "static/media/florinariver.jpg": "/ArtInFlorina/static/media/florinariver.712035536e6df0b40c21.jpg",
@@ -19,12 +19,12 @@
     "static/media/event4.jpg": "/ArtInFlorina/static/media/event4.d1da7c03511f8eab82dd.jpg",
     "static/media/bookpresentation.jpg": "/ArtInFlorina/static/media/bookpresentation.d72af00da3b617873777.jpg",
     "index.html": "/ArtInFlorina/index.html",
-    "main.a950e0fb.css.map": "/ArtInFlorina/static/css/main.a950e0fb.css.map",
-    "main.e8162447.js.map": "/ArtInFlorina/static/js/main.e8162447.js.map",
+    "main.e7d8a62a.css.map": "/ArtInFlorina/static/css/main.e7d8a62a.css.map",
+    "main.3599ec68.js.map": "/ArtInFlorina/static/js/main.3599ec68.js.map",
     "453.4f70c550.chunk.js.map": "/ArtInFlorina/static/js/453.4f70c550.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a950e0fb.css",
-    "static/js/main.e8162447.js"
+    "static/css/main.e7d8a62a.css",
+    "static/js/main.3599ec68.js"
   ]
 }
